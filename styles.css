@@ -3,9 +3,39 @@ body {
     background-color: black;
     font-family:Orbitron;
     user-select: none;
-    font-size:35px;
+    height: 100vh; width: 100vw; 
+    box-sizing:border-box;
 }
 
 h1 {
     text-align: center;
+    font-size: 60px;
+}
+
+.gameBoard {
+    margin: 10%;
+    border-style: dashed;
+    border-color: lawngreen;
+    border-width: 2px;
+    height:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.gameRow {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 0px;
+
+}
+
+.gamebutton {
+    flex-grow:1;
+    margin:20px;
+    border-radius:10px;
 }
