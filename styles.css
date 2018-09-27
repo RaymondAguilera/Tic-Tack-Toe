@@ -5,3 +5,7 @@ body {
     user-select: none;
     font-size:35px;
 }
+
+h1 {
+    text-align: center;
+}
