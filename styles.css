@@ -1,4 +1,6 @@
 body {
-    color:blue;
-    background-color:red;
+    color:lawngreen;
+    background-color: black;
+    font-family:Orbitron;
+    user-select: none;
 }
