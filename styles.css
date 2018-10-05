@@ -45,11 +45,15 @@ h1 {
     flex-grow:1;
     margin:20px;
     border-radius:10px;
-    font-size:50px;
+    font-size:80px;
     color:lawngreen;
     background: lightslategray;
-    font-family:Orbitron;
-   }
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    box-shadow: 6px 6px 5px lawngreen;
+    position: relative;
+}
+
+   
 
 
 ul {
